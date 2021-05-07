@@ -1,6 +1,8 @@
 # Symantec ATP API
 Script used to pull logs from the Symantec ATP console using the API.
 
+***No Longer Maintained. Still works with Symantec API V2.***
+
 **Setup**  
 ```bash
 $ pip install -r requirements.txt
@@ -25,4 +27,4 @@ $ ./symantec_api.py -q "file.name:mimikatz_x86.exe OR file.name:mimikatz.exe" -h
 
 **Output**  
 Writes files to script directory.  
-Filename example "2020-01-21T231451_10-0-0-9.json" (date, time, server ip)  
+Filename example "2020-01-21T231451_10-0-0-100.json" (date, time, server ip)  
