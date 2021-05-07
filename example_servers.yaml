@@ -1,0 +1,14 @@
+# Format for this yaml file:
+#    IP:
+#       server: IP
+#       client_id: Client ID
+#       client_secert: Client Secret
+# Examples:
+10.0.0.0:
+  server: 10.0.0.0
+  client_id: O2ID.atp-customer.atp-domain.blahblahblah789
+  client_secret: blahblahblahMySecret123
+10.0.0.1:
+  server: 10.0.0.1
+  client_id: O2ID.atp-customer.atp-domain.blahblahblah678
+  client_secret: blahblahblahMySecret123

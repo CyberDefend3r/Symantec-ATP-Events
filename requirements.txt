@@ -1,0 +1,4 @@
+PyYAML
+urllib3
+requests
+tqdm
