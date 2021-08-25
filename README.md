@@ -1,7 +1,7 @@
 # Symantec ATP API
 Script used to pull logs from the Symantec ATP console using the API.
 
-***No Longer Maintained. Still works with Symantec API V2.***
+**No Longer Maintained. Still works with Symantec API V2.**
 
 **Setup**  
 ```bash
