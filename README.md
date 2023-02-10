@@ -30,4 +30,4 @@ Writes files to script directory.
 Filename example "2020-01-21T231451_10-0-0-100.json" (date, time, server ip)  
   
 ----  
-<img src="https://cdn.cdnlogo.com/logos/t/48/twitter.png" width="20px"> [@Cyb3r_Detect0r](https://twitter.com/Cyb3r_Detect0r)
+<img src="https://cdn.cdnlogo.com/logos/t/48/twitter.png" width="20px"> [@Cyb3rDefender](https://twitter.com/Cyb3rDefender)
