@@ -1,4 +1,4 @@
-# Symantec EDR Logs via API
+# Download Symantec EDR Logs via API
 Script used to pull logs from the Symantec ATP/EDR console using the API.
 
 **No Longer Maintained. Still works with Symantec API V2.**
