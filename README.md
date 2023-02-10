@@ -1,8 +1,10 @@
-# Symantec ATP API
-Script used to pull logs from the Symantec ATP console using the API.
+# Symantec EDR Logs via API
+Script used to pull logs from the Symantec ATP/EDR console using the API.
 
 **No Longer Maintained. Still works with Symantec API V2.**
-
+  
+https://apidocs.securitycloud.symantec.com/#/doc?id=events_resource  
+  
 **Setup**  
 ```bash
 $ pip install -r requirements.txt
@@ -20,7 +22,7 @@ optional arguments:
   -hr Hours       The amount of hours you want. Default is 0 (meaning now - 0 hour).
   -dt Date Time   Specific date and time (yyyy-mm-dd_hh:mm:ss), default is current utc time.
 ```  
-This example would return results for mimikatz from server 10.0.0.100 with a time range of now - 3 hours.  
+This example would return results for mimikatz from all servers in config with a time range of now - 3 hours.  
 ```bash
 $ ./symantec_api.py -q "file.name:mimikatz_x86.exe OR file.name:mimikatz.exe" -hr 3
 ```  
